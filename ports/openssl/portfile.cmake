@@ -35,6 +35,7 @@ vcpkg_from_github(
 vcpkg_list(SET CONFIGURE_OPTIONS
     enable-static-engine
     enable-capieng
+    enable-legacy
     no-ssl3
     no-weak-ssl-ciphers
     no-tests
